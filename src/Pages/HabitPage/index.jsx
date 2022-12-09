@@ -19,18 +19,23 @@ export default function HabitPage() {
     <View style={styles.container}>
       <ScrollView>
         <View>
+
           <TouchableOpacity
             style={styles.bakcPageBtn}
             onPress={() => navigation.goBack()}
           >
+
             <Image
               source={require("../../assets/icons/arrowBack.png")}
               style={styles.arrowBack}
             />
+
           </TouchableOpacity>
+
           <View style={styles.mainContent}>
 
           </View>
+
         </View>
       </ScrollView>
     </View>
